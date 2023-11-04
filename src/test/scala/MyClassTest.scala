@@ -1,11 +1,7 @@
 import jdk.internal.vm.vector.VectorSupport.test
 import org.scalatest.funsuite.AnyFunSuite
 
-//class MyClassTest extends AnyFunSuite {
-//  def test2() {
-//    assert(Operations.addition(5, 3) == 2)
-//  }
-//}
+
 class MyClassTest extends AnyFunSuite {
   test("Checking Addition") {
     val expected = 8
